@@ -1,0 +1,109 @@
+
+
+ .open-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: ;
+    padding: 10px 160px 10px 160px;
+}
+.btn-primary{
+    width: 116px;
+    height: 52px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 106, 80);
+}
+.title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+.sub-title{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+.banner{
+    display: flex;
+    background: rgb(198, 228, 214);
+    border-radius: 24px;
+    margin: 20px 100px;
+    
+padding: 80px 100px 80px 100px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+  
+}
+.skill-discription{
+    font-size: 160x;
+    font-weight: 400;
+    color: rgb(117,117,117);
+}
+.skills{
+    margin-top: 80px;
+}
+.skill{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+}
+.short{
+    margin-top: 80px;
+    gap: 24px;
+}
+.skill-port{
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+}
+
+
+main{
+    margin: 20px 100px;
+}
+.btn{
+    background-color: rgb(9, 161, 92);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+   padding: 11px 20px 11px 20px;
+   border-radius: 8px;
+}.btn:hover{
+    background-color: blueviolet;
+}
+.section-content{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 48px 24px 48px 24px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 0px 24px;
+
+}
+.yunus{
+    margin-top: 12px;
+}
+.title-up{
+    margin-top:-35px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+.title-up2{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+    margin: 4px 0px;
+}
+
