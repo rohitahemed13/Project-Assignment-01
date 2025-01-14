@@ -22,9 +22,10 @@ nav{
     color: rgb(0, 106, 80);
 }
 .title{
-    color: rgba(14, 14, 14, 0.5);
-    font-size: 24px;
-    font-weight: 500;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 600;
+    
 }
 .sub-title{
     font-size: 56px;
@@ -105,5 +106,106 @@ main{
     font-weight: 400;
     color: rgba(14, 14, 14, 0.6);
     margin: 4px 0px;
+    
 }
+.satelite{
+    display: flex;
+    gap: 32px;
+}
+.blog{
+    padding: 48px;
+    background-color: rgb(255, 255, 255);
+    margin: 24px 0px;
+    border-radius: 24px;
+}
+.section-contents{
+    display: flex;
+    gap: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 48px 24px 48px 24px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 12px 0px;
 
+}
+.profile-1{
+    border-radius: 24px;
+    margin: 0px 32px;
+
+}
+.hello-1{
+ text-align: center;
+}
+.btn-3{
+ text-align: center;
+ gap: 24px;
+ padding: 40px;
+ font-size: 40px;
+ font-weight: 700;
+border-radius: 16px;
+}
+.hello{
+    background-color: aqua;
+    text-align: center;
+ gap: 24px;
+ padding: 40px;
+ font-size: 40px;
+ font-weight: 700;
+border-radius: 16px;
+
+}
+.section-hello{
+    margin-top: 80px;
+    /* justify-content: center; */
+}
+form{
+ text-align: center;
+ padding: 20px 40px 20px 40px;
+ border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+ margin-top: -10px;
+ align-items: center;
+ 
+}
+input{
+    padding: 20px 40px 20px 40px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    /* margin: 32px 0px; */
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+   
+    
+}
+.hi{
+    
+    color: white;
+    font-size: 14px;
+    background-color: rgb(9, 161, 92);
+    color: white;
+  
+    font-weight: 400;
+    border: none;
+   padding: 11px 20px 11px 20px;
+margin-left: 3px;
+margin-right: 3px;
+   padding: 5px 2px 5px 2px;
+   border-radius: 8px;
+   margin: 32px 0px;
+   text-align: center;
+}
+footer{
+    text-align: center;
+    background: rgb(198, 228, 214);
+padding: 80px 100px 80px 100px;
+margin: 20px 100px;
+border-radius: 24px;
+}
+.rohit{
+    background-color:rgb(0, 106, 80);
+    gap: 0px;
+    color: white;
+    font-weight: 800;
+}
+.white:hover {
+    background-color: blueviolet;
+}
