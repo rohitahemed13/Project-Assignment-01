@@ -12,11 +12,12 @@ nav{
     justify-content: space-between;
     margin: ;
     padding: 10px 160px 10px 160px;
+    
 }
 .btn-primary{
     width: 116px;
     height: 52px;
-    background-color: white;
+    background-color: white;                                                 
     font-size: 18px;
     font-weight: 600;
     color: rgb(0, 106, 80);
@@ -34,11 +35,15 @@ nav{
 }
 .banner{
     display: flex;
+   
     background: rgb(198, 228, 214);
     border-radius: 24px;
     margin: 20px 100px;
     
 padding: 80px 100px 80px 100px;
+}
+.abs{
+    /* position: absolute; */
 }
 .skill-container{
     display: flex;
@@ -71,6 +76,7 @@ padding: 80px 100px 80px 100px;
 
 main{
     margin: 20px 100px;
+   
 }
 .btn{
     background-color: rgb(9, 161, 92);
@@ -190,7 +196,7 @@ margin-right: 3px;
    margin: 32px 0px;
    text-align: center;
 }
-footer{
+.footer{
     text-align: center;
     background: rgb(198, 228, 214);
 padding: 80px 100px 80px 100px;
@@ -223,6 +229,13 @@ margin-top: 80px;
 }
 .display{
     display: flex;
+    gap: 0%;
+
+}
+.color{
+    background-color: rgb(0, 106, 80);
+    border-radius: 10px;
+    color: white;
 }
 .gr{
     border: none;
@@ -272,10 +285,9 @@ margin-top: 80px;
 .mina:hover{
     background-color: aqua;
 }
-
-.nr{
+footer{
 justify-items: center;
-margin-top: 80px;
+
 margin-bottom: 30px;
 padding: 50px 160px 50px 160px;
 
