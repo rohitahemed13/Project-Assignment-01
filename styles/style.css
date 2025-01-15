@@ -126,7 +126,6 @@ main{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     margin: 12px 0px;
-
 }
 .profile-1{
     border-radius: 24px;
@@ -156,7 +155,6 @@ border-radius: 16px;
 }
 .section-hello{
     margin-top: 80px;
-    /* justify-content: center; */
 }
 form{
  text-align: center;
@@ -167,14 +165,13 @@ form{
  
 }
 input{
-    padding: 20px 40px 20px 40px;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-    /* margin: 32px 0px; */
-    border: none;
-    background-color: blanchedalmond;
-    border-radius: 12px;
-   
-    
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    margin: 20px 100px;
+    width: 1032px;
+    margin: 0 auto;
+    height: 64px;
 }
 .hi{
     
@@ -199,13 +196,87 @@ footer{
 padding: 80px 100px 80px 100px;
 margin: 20px 100px;
 border-radius: 24px;
+margin-top: 80px;
+}
+
+.doli{
+    margin-top: 80px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+
+}
+
+.Now{
+    background-color: rgb(0, 106, 80);
+    justify-content: center;
+    align-items: center;
+    padding: 17px 34px 17px 34px;
+    color: white ;
+    border-radius: 5px;
+    border: none;
+}
+.center{
+    text-align: center;
+}
+.display{
+    display: flex;
+}
+.gr{
+    border: none;
+    border-radius: 15px;
+    background-color: chartreuse;
+    color: white;
+}
+.mina{
+    border-radius: 10px;
+    background-color:  rgb(0, 106, 80);
+    color: white;
 }
 .rohit{
-    background-color:rgb(0, 106, 80);
-    gap: 0px;
-    color: white;
-    font-weight: 800;
+    border-radius: 10px;
+    background-color: antiquewhite;
 }
-.white:hover {
-    background-color: blueviolet;
+ .survey-table { 
+    width: 90%;
+     border-collapse: collapse; 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .survey-table th, .survey-table td { 
+  padding: 15px; 
+  text-align: left; 
+ border-bottom: 1px solid #ddd; 
+} 
+.survey-table th {
+  background-color: #e0f7e0; 
+}
+  .survey-table td { 
+   background-color: #fff; 
+}
+.survey-table select { 
+  padding: 5px; 
+  font-size: 14px;
+ }
+ .Now:hover{
+    background-color: yellowgreen;
+ }
+ .sr{
+    margin-top: 80px;
+ }
+.at{
+    margin-top: 80px;
+}
+.mina:hover{
+    background-color: aqua;
+}
+
+.nr{
+justify-items: center;
+margin-top: 80px;
+margin-bottom: 30px;
+padding: 50px 160px 50px 160px;
+
 }
